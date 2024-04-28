@@ -81,7 +81,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following technologies :<span class='bold'><br>Microsoft Dynamics 365<br>Microsoft Power Platform</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Python<br>CSS<br>HTML</span><br><br>I've experience with following technologies :<span class='bold'><br>Microsoft Dynamics 365<br>Microsoft Power Platform</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
@@ -99,6 +99,9 @@ function waitAndResponce(inputText) {
             break;
         case "contact":
             sendTextMessage(contactString);
+            break;
+        case "experience":
+            sendTextMessage("I currently work as an System Engineer in Tata Consultancy Services.<br><br><span class='sk'>Some of the hands-on experience I got by working as an sytem engineer in TCS :<br><span class='bold'>Orchestrated and managed Dynamics 365 CRM systems,ensuring optimal performance and user satisfaction.<br>C++<br>C<br>PHP<br>Python<br>CSS<br>HTML</span>");
             break;
         case "projects":
             sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/naveenjack007'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
