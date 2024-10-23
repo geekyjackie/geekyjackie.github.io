@@ -1,8 +1,0 @@
-// Color
-
-
-@each $color, $value in $grays {
-    .text-gray-#{$color} {
-      color: $value !important;
-    }
-  }
